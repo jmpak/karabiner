@@ -33,7 +33,18 @@
                                         "key_code": "right_shift"
                                     }
                                 ],
-                                "type": "basic"
+                                "type": "basic",
+                                "conditions": [
+                                  {
+                                    "type": "device_if",
+                                    "identifiers": [
+                                      {
+                                        "vendor_id": 2385,
+                                        "product_id": 5823
+                                      }
+                                    ]
+                                  }
+                                ]
                             }
                         ]
                     }
