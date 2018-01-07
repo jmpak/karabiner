@@ -16,6 +16,17 @@
                     {
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 5823,
+                                                "vendor_id": 2385
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
                                 "description": "Change right_shift+a to without a",
                                 "from": {
                                     "key_code": "a",
@@ -33,24 +44,24 @@
                                         "key_code": "right_shift"
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                  {
-                                    "type": "device_if",
-                                    "identifiers": [
-                                      {
-                                        "vendor_id": 2385,
-                                        "product_id": 5823
-                                      }
-                                    ]
-                                  }
-                                ]
+                                "type": "basic"
                             }
                         ]
                     },
                     {
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 5823,
+                                                "vendor_id": 2385
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
                                 "description": "Change right_option+b to right_command without b",
                                 "from": {
                                     "key_code": "b",
@@ -68,24 +79,24 @@
                                         "key_code": "right_command"
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                  {
-                                    "type": "device_if",
-                                    "identifiers": [
-                                      {
-                                        "vendor_id": 2385,
-                                        "product_id": 5823
-                                      }
-                                    ]
-                                  }
-                                ]
+                                "type": "basic"
                             }
                         ]
                     },
                     {
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 5823,
+                                                "vendor_id": 2385
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
                                 "description": "Change right_command+c to right_option without c",
                                 "from": {
                                     "key_code": "c",
@@ -103,18 +114,7 @@
                                         "key_code": "right_option"
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                  {
-                                    "type": "device_if",
-                                    "identifiers": [
-                                      {
-                                        "vendor_id": 2385,
-                                        "product_id": 5823
-                                      }
-                                    ]
-                                  }
-                                ]
+                                "type": "basic"
                             }
                         ]
                     }
@@ -147,6 +147,14 @@
                             },
                             "to": {
                                 "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "close_bracket"
+                            },
+                            "to": {
+                                "key_code": "escape"
                             }
                         },
                         {
@@ -207,6 +215,30 @@
                         },
                         {
                             "from": {
+                                "key_code": "f4"
+                            },
+                            "to": {
+                                "key_code": "comma"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "f5"
+                            },
+                            "to": {
+                                "key_code": "period"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "f6"
+                            },
+                            "to": {
+                                "key_code": "slash"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "f7"
                             },
                             "to": {
@@ -235,6 +267,22 @@
                             },
                             "to": {
                                 "key_code": "9"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "i"
+                            },
+                            "to": {
+                                "key_code": "b"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "j"
+                            },
+                            "to": {
+                                "key_code": "c"
                             }
                         },
                         {
@@ -399,6 +447,14 @@
                         },
                         {
                             "from": {
+                                "key_code": "semicolon"
+                            },
+                            "to": {
+                                "key_code": "spacebar"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "slash"
                             },
                             "to": {
@@ -415,10 +471,26 @@
                         },
                         {
                             "from": {
+                                "key_code": "t"
+                            },
+                            "to": {
+                                "key_code": "m"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "tab"
                             },
                             "to": {
                                 "key_code": "7"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "u"
+                            },
+                            "to": {
+                                "key_code": "n"
                             }
                         },
                         {
@@ -479,6 +551,14 @@
                         },
                         {
                             "from": {
+                                "key_code": "3"
+                            },
+                            "to": {
+                                "key_code": "v"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "4"
                             },
                             "to": {
@@ -487,10 +567,26 @@
                         },
                         {
                             "from": {
+                                "key_code": "5"
+                            },
+                            "to": {
+                                "key_code": "x"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "6"
                             },
                             "to": {
                                 "key_code": "y"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "7"
+                            },
+                            "to": {
+                                "key_code": "z"
                             }
                         },
                         {
@@ -511,98 +607,90 @@
                         },
                         {
                             "from": {
-                                "key_code": "7"
+                                "key_code": "f8"
                             },
                             "to": {
-                                "key_code": "z"
+                                "key_code": "f1"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "5"
+                                "key_code": "f9"
                             },
                             "to": {
-                                "key_code": "x"
+                                "key_code": "f2"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "j"
+                                "key_code": "f10"
                             },
                             "to": {
-                                "key_code": "c"
+                                "key_code": "f3"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "3"
+                                "key_code": "f11"
                             },
                             "to": {
-                                "key_code": "v"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "i"
-                            },
-                            "to": {
-                                "key_code": "b"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "u"
-                            },
-                            "to": {
-                                "key_code": "n"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "t"
-                            },
-                            "to": {
-                                "key_code": "m"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "f4"
-                            },
-                            "to": {
-                                "key_code": "comma"
                             }
                         },
                         {
                             "from": {
+                                "key_code": "f12"
+                            },
+                            "to": {
                                 "key_code": "f5"
-                            },
-                            "to": {
-                                "key_code": "period"
                             }
                         },
                         {
                             "from": {
+                                "key_code": "f13"
+                            },
+                            "to": {
                                 "key_code": "f6"
-                            },
-                            "to": {
-                                "key_code": "slash"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "semicolon"
+                                "key_code": "help"
                             },
                             "to": {
-                                "key_code": "spacebar"
+                                "key_code": "f9"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "close_bracket"
+                                "key_code": "home"
                             },
                             "to": {
-                                "key_code": "escape"
+                                "key_code": "f10"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "page_up"
+                            },
+                            "to": {
+                                "key_code": "f11"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_forward"
+                            },
+                            "to": {
+                                "key_code": "f12"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "f14"
+                            },
+                            "to": {
+                                "key_code": "f7"
                             }
                         }
                     ]
@@ -616,7 +704,7 @@
                         "product_id": 628,
                         "vendor_id": 1452
                     },
-                    "ignore": false,
+                    "ignore": true,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": []
                 }
